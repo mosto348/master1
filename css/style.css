@@ -1,0 +1,445 @@
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header-part */
+header{
+    background: url(../img/background.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    margin-bottom: -150px;
+}
+/* main header */
+.main-header{
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+    padding: 10px 0px;
+}
+.logo-part img{
+
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+}
+.menu-part ul{
+margin: 20px auto;
+}
+
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+    color: aliceblue;
+}
+.menu-part a{
+    margin: 30px ;
+    
+}
+/* hero part */
+.hero{
+    text-align: center;
+
+}
+.hero h1{
+    padding-top: 95px;
+}
+.hero p{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.hero img{
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding-top: 40px;
+}
+.hero a button{
+    padding: 12px;
+    text-align: center;
+    background: none;
+    box-sizing: 0px 0px 5px rgb(255, 255, 255);
+    
+}
+/* feature sction */
+#feature{
+    width: 100%;
+    float: left;
+    background: url(../img/whate-background.png) no-repeat ;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+}
+.feature-img-part{
+    width: 30%;
+    float: left;
+    padding: 150px;
+    margin-top: 150px;
+}
+.feature-box-part{
+    width: 70%;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.feature-box{
+    width: 100%;
+    float: left;
+    padding: 175px;
+}
+h2{ 
+    font-size: 20.5px;
+}
+.feature-box-one{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    position: relative;
+    top: -40px;
+    left: 0px;
+}
+.feature-box-tow{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.feature-box-three{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.feature-box-fore{
+    width: 50%;
+    float: left;
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    position: relative;
+    top: 100px;
+    right: -100px;
+} 
+/* markting section */
+#marketing{
+    width: 100%;
+    float: left;
+}
+.leatter-part{
+    text-align: end;
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: -90px;
+}
+.leatter-part button{
+    padding: 10px;
+    background-color: rgb(57, 156, 221);
+}
+.marketing-box-part{
+    width: 50%;
+    float: left;
+    margin-left: 80px;
+}
+.marketing-box-one{
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    width: 70%;padding: 17px;
+    position: relative;
+    top: -10px;
+}
+.marketing-box-one a{
+    float: left;
+}
+.marketing-box-one h3{
+    margin-left: 40px;
+}
+.marketing-box-two {
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    width: 70%;padding: 17px;
+    background-color: rgb(0, 175, 245);
+    position: relative;
+    top: 10px;
+}
+.marketing-box-two a{
+    float: left;
+}
+.marketing-box-two h3{
+    margin-left: 40px;
+}
+.marketing-box-two p{
+    margin-left: 40px;
+    font-size: 14px;
+}
+.marketing-box-three{
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    width: 70%;padding: 17px;
+    position: relative;
+    top: 30px;
+}
+.marketing-box-three a{
+    float: left;
+}
+.marketing-box-three h3{
+    margin-left: 40px;
+}
+.marketing-box-four{
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.171);
+    width: 70%;padding: 17px;
+    position: relative;
+    top: 50px;
+}
+.marketing-box-four a{
+    float: left;
+}
+.marketing-box-four h3{
+    margin-left: 40px;
+}
+/* marketing-two */
+#marketing-two{
+    background: url(../img/maketing3.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    /* padding: 100px; */
+    padding-top: 200px;
+    position: relative;
+    top: 90px;
+}
+.vector-code{
+    width: 50%;
+    float: left;
+}
+.text {
+    float: left;
+    width: 50%;
+}
+.taittel h4{
+    font-size: 14pt;
+    padding: 40px;
+}
+.android a{
+    width: 2.7%;
+    float: left;
+}
+.android h4{
+    width: 45%;
+    float: left;
+}
+.iphon a{
+    float: left;
+    width: 2.5%;
+    padding-top: 15px;
+    margin-left: -2px;
+    position: relative;
+    left: -31.5px;
+}
+.iphon h4{
+    float: left;
+    width: 7%;
+    margin-left: 0px;
+    padding-top: 15px;
+    position: relative;
+    left: -30px;
+}
+.pera{
+    padding: 100px;
+}
+/* marketing-three section  */
+#marketing-three{
+    width: 100%;
+    float: left;
+    background: url(../img/maketing4.png) no-repeat center cadetblue ;
+    background-size: cover;
+    position: relative;
+    top: 90px;
+}
+.img-part-three {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.img-part-three a{
+    font-size: 500px;
+}
+.img-part-three img{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+.pera-part{
+    padding-top: 90px;
+}
+.heding-four h4{
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+}
+.pera-part{
+    position: relative;
+    top: 130px;
+}
+.play-stor{
+    position: relative;
+    width: 25%;
+    float: left;
+    top: 160px;
+}
+.play-stor-app{
+    position: relative;
+    width: 25%;
+    float: left;
+    left: -150px;
+    top: 160px;
+}
+/* info section */
+#info{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+.get-the-app button{
+    width: 25%;
+    height: 55px;
+    background-color: rgb(241, 45, 45);
+    position: relative;
+    left: 500px;
+    top: -35px;
+    color: rgb(248, 248, 248);
+    font-size: 18px;
+}
+.Company{
+    position: relative;
+    top: 100px;
+    width: 25%;
+    float: left;
+    left: 100px;
+}
+.Company h5{
+    font-size: 18px;
+
+}
+.Company li{
+    list-style: none;
+}
+.development{
+    position: relative;
+    top: 100px;
+    width: 25%;
+    float: left;
+    left: 100px;
+}
+.development h5{
+    font-size: 18px;
+}
+.development li{
+    list-style: none;
+}
+.communit{
+    position: relative;
+    top: 100px;
+    width: 25%;
+    float: left;
+    left: 100px;
+}
+.communit h5{
+    font-size: 18px;
+}
+.communit li{
+    list-style: none;
+}
+.info1{
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 100px;
+}
+.info1 h5{
+    font-size: 18px;
+}
+.info1 li{
+    list-style: none;
+}
+.get-in-touch{
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 250px;
+}
+.get-in-touch h5{
+    position: relative;
+    left: 300px;
+    font-size: 29px
+    
+}
+.get-in-touch p{
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+.get-in-touch img{
+    position: relative;
+    left: 250px;
+}
+.COUNT-me a{
+    float: left;
+    position: relative;
+    top: 400px;
+    left: 300px;
+}
+.COUNT-me button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(74, 154, 219);
+}
+/* fotter-part */
+.fotter-part{
+    background-color: rgb(28, 28, 54);
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+    width: 100%;
+    float: left;
+}
+.appo-all{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 5%;
+    top: 18px;
+}
+.icon-gmg a{
+    padding: 10px;
+    position: relative;
+    left: 80%;
+    top: -7px;
+}
